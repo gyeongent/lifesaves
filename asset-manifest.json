@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/lifesaves/static/css/main.480202e5.css",
+    "main.js": "/lifesaves/static/js/main.28a963e1.js",
+    "static/js/787.2e38e8a8.chunk.js": "/lifesaves/static/js/787.2e38e8a8.chunk.js",
+    "static/media/tumblbug_logo.svg": "/lifesaves/static/media/tumblbug_logo.b683e9eccafd074bf6b38a9b39d58e1d.svg",
+    "static/media/instagram_logo.svg": "/lifesaves/static/media/instagram_logo.424f4d2e330175f288541c755c59af72.svg",
+    "static/media/ls_logo.svg": "/lifesaves/static/media/ls_logo.eeb438f77ff7d0b4ae339306f7a39731.svg",
+    "index.html": "/lifesaves/index.html",
+    "main.480202e5.css.map": "/lifesaves/static/css/main.480202e5.css.map",
+    "main.28a963e1.js.map": "/lifesaves/static/js/main.28a963e1.js.map",
+    "787.2e38e8a8.chunk.js.map": "/lifesaves/static/js/787.2e38e8a8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.480202e5.css",
+    "static/js/main.28a963e1.js"
+  ]
+}
