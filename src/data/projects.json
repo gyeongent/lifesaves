@@ -1,0 +1,22 @@
+{
+    "projectinfo" : [
+        {
+            "projectName": "chapterone",
+            "title": "라이프 세이브스 프로젝트 1"
+        },
+        {
+            "projectName": "chaptertwo",
+            "title": "라이프 세이브스 프로젝트 2"
+        }
+    ],
+    "contents" : [
+        {
+            "projectName": "chapterone",
+            "img": "img1"
+        },
+        {
+            "projectName": "chaptertwo",
+            "img": "img2"
+        }
+    ]
+}
