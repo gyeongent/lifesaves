@@ -2,19 +2,21 @@
     "projectinfo" : [
         {
             "projectName": "chapterone",
-            "title": "라이프 세이브스 프로젝트 1"
+            "title": "<Chapter 1> 동물원 방치사건"
         },
         {
             "projectName": "chaptertwo",
-            "title": "라이프 세이브스 프로젝트 2"
+            "title": "<Chapter 2> 치매"
         }
     ],
     "contents" : [
         {
+            "title": "<Chapter 1> 동물원 방치사건",
             "projectName": "chapterone",
             "img": "img1"
         },
         {
+            "title": "<Chapter 2> 치매",
             "projectName": "chaptertwo",
             "img": "img2"
         }

@@ -23,7 +23,7 @@ function Projects(){
 
     return(
         <div>
-            { projectName } 프로젝트
+            프로젝트
             <div>
                 { projectList }
             </div>
@@ -31,7 +31,7 @@ function Projects(){
                 {projectContent.map(content => (
                     <div>
                         <div>
-                            { content.projectName }
+                            { content.title }
                         </div>
                         <div>
                             { content.img }
