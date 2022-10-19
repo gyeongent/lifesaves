@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.8aa06724.css",
-    "main.js": "/static/js/main.ba8f2adf.js",
+    "main.css": "/static/css/main.903ff5b3.css",
+    "main.js": "/static/js/main.919dea9f.js",
     "static/js/787.2e38e8a8.chunk.js": "/static/js/787.2e38e8a8.chunk.js",
-    "static/media/tumblbug_logo.svg": "/static/media/tumblbug_logo.b683e9eccafd074bf6b38a9b39d58e1d.svg",
-    "static/media/instagram_logo.svg": "/static/media/instagram_logo.424f4d2e330175f288541c755c59af72.svg",
+    "static/media/tumblbug_logo.svg": "/static/media/tumblbug_logo.1820c283b441954d32f4b161f7732697.svg",
+    "static/media/mail_icon.svg": "/static/media/mail_icon.b85a8d79d4eaaa79fd1ceacb84c735b5.svg",
+    "static/media/instagram_logo.svg": "/static/media/instagram_logo.c1cf913e8d0ff6636047cd1e1883f077.svg",
     "static/media/ls_logo.svg": "/static/media/ls_logo.eeb438f77ff7d0b4ae339306f7a39731.svg",
     "index.html": "/index.html",
-    "main.8aa06724.css.map": "/static/css/main.8aa06724.css.map",
-    "main.ba8f2adf.js.map": "/static/js/main.ba8f2adf.js.map",
+    "main.903ff5b3.css.map": "/static/css/main.903ff5b3.css.map",
+    "main.919dea9f.js.map": "/static/js/main.919dea9f.js.map",
     "787.2e38e8a8.chunk.js.map": "/static/js/787.2e38e8a8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aa06724.css",
-    "static/js/main.ba8f2adf.js"
+    "static/css/main.903ff5b3.css",
+    "static/js/main.919dea9f.js"
   ]
 }
