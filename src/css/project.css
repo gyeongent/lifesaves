@@ -1,0 +1,66 @@
+.project_preview {
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    background-color: rgb(245,245,245);
+    margin-right: 20px;
+    transition: all 0.5s ease;
+}
+
+.project_preview_hr {
+    width: 100%;
+    background-color: lightgray;
+    height: 1px;
+    border: 0;
+    margin: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.project_thumb {
+    width: 30vmin;
+    border-radius: 20px;
+    overflow: hidden;
+    border: 1px solid lightgray;
+    transition: all 0.5s ease;
+}
+
+.project_thumb > img{
+    width: 100%;
+    display: block;
+    transition: all 0.5s ease;
+}
+
+.project_preview:hover .project_thumb > img  {
+    transform: scale(1.15);
+    filter: brightness(1.1);
+    transition: all 0.5s ease;
+}
+
+.project_preview:hover .project_preview_hr  {
+    background-color: blueviolet;
+    transition: all 0.5s ease;
+}
+
+.project_preview:hover .project_thumb {
+    border: 1px solid blueviolet;
+    transition: all 0.5s ease;
+}
+
+.project_preview:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+
+.project_detail {
+    padding: 50px 8vmin;
+}
+
+.project_detail_img {
+    padding: 50px 8vmin;
+    width: 200px;
+}
+
+.project_detail_img > img {
+    width: 100%;
+}

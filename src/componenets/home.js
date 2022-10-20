@@ -1,18 +1,19 @@
 import React, { useState } from "react";
 import Calendar from "react-calendar";
 import moment from "moment";
+import newsinfo from "../data/news.json";
 
 import 'react-calendar/dist/Calendar.css';
 import '../css/home.css';
 
 function Announce(){
     return(
-        <div>
-            <div>
+        <div className="announce_box">
+            <div className="announce_icon">
                 📢
             </div>
-            <div>
-                -
+            <div className="announce_content">
+                {newsinfo.annouce[0]}
             </div>
         </div>
     );
@@ -21,7 +22,7 @@ function Announce(){
 function CalendarSection(){
     const [value, onChange] = useState(new Date());
     return(
-        <div>
+        <div className="calendarStyle">
             <Calendar
                 onChange={onChange}
                 value={value}
@@ -46,8 +47,11 @@ function CalendarSection(){
 function Home(){
     return(
         <div className="bodyStyle">
-            <div className="home_title">
-                프로젝트 일정
+            <div className="top">
+                <div className="home_title">
+                    프로젝트 일정
+                </div>
+                <Announce />
             </div>
             <div className="section_first">
                 <CalendarSection />

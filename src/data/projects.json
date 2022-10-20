@@ -2,23 +2,27 @@
     "projectinfo" : [
         {
             "projectName": "chapterone",
-            "title": "<Chapter 1> 동물원 방치사건"
+            "title": "<Chapter 1> 동물원 방치사건",
+            "img": "https://gyeong.net/static/media/LifeSaves_1.e1b9472c5ff9dd71f9ef.jpeg"
         },
         {
             "projectName": "chaptertwo",
-            "title": "<Chapter 2> 치매"
+            "title": "<Chapter 2> 치매",
+            "img": "https://i.ibb.co/RHTMVVN/project2-ls.png"
         }
     ],
     "contents" : [
         {
             "title": "<Chapter 1> 동물원 방치사건",
             "projectName": "chapterone",
-            "img": "img1"
+            "img": "https://gyeong.net/static/media/LifeSaves_1.e1b9472c5ff9dd71f9ef.jpeg",
+            "desc": "-"
         },
         {
             "title": "<Chapter 2> 치매",
             "projectName": "chaptertwo",
-            "img": "img2"
+            "img": "https://i.ibb.co/RHTMVVN/project2-ls.png",
+            "desc": "-"
         }
     ]
 }

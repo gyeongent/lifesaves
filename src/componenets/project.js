@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 
+import "../css/project.css";
+
 import projectArray from "../data/projects.json";
 
 function Projects(){
@@ -10,7 +12,11 @@ function Projects(){
     const projectList = projectArray.projectinfo.map((projectinfo, index) => {
         return (
             <Link to={'/projects/' + projectinfo.projectName } key={index} >
-                <div>
+                <div className="project_preview">
+                    <div className="project_thumb">
+                        <img src={projectinfo.img} alt={projectinfo.title}/>
+                    </div>
+                    <hr className="project_preview_hr"/>
                     <div>
                         { projectinfo.title }
                     </div>
@@ -23,18 +29,27 @@ function Projects(){
 
     return(
         <div>
-            프로젝트
-            <div>
+            <div className="top">
+                <div className="home_title">
+                    프로젝트
+                </div>
+            </div>
+            <div className="section_first">
                 { projectList }
             </div>
             <div>
                 {projectContent.map(content => (
                     <div>
-                        <div>
-                            { content.title }
+                        <div className="top">
+                            <div className="home_title">
+                                { content.title }
+                            </div>
                         </div>
-                        <div>
-                            { content.img }
+                        {/* <div className="project_detail_img">
+                            <img src={ content.img } alt={content.title}/>
+                        </div> */}
+                        <div className="project_detail">
+                            { content.desc }
                         </div>
                     </div>
                 ))}

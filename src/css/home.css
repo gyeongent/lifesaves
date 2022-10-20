@@ -34,12 +34,41 @@
 }
 
 .home_title {
-    padding: 0 8vmin;
-    padding-top: 50px;
-    margin-bottom: -25px;
+    padding: 10px 8vmin;
     font-size: 35px;
     font-weight: bolder;
     color: blueviolet;
+    white-space: nowrap;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: -25px;
+    width: 100vw;
+}
+
+
+.announce_box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 10px 2vmin;
+    background-color: rgb(245,245,245);
+    border-radius: 10px;
+    margin-right: 13vmin;
+}
+
+
+.announce_content {
+    width: 25.5vw;
+    margin-left: 10px;
+    color: gray;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .notice {
@@ -63,7 +92,6 @@
     color: #000;
     border-radius: 10px;
     border: 1px solid lightgray;
-    
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.125em;
    }
@@ -162,3 +190,36 @@
     font-family: 'Spoqa Han Sans Neo', 'sans-serif';
     font-weight: 700;
   }
+
+  .calendarStyle {
+    width: 50%;
+  }
+
+@media only screen and (max-width: 768px)  {
+    .bodyStyle {
+        height: 100%;
+    }
+
+    .section_first {
+        display: block;
+    }
+
+    .react-calendar {
+        width: 100%;
+    }
+
+    .calendarStyle {
+        width: 100%;
+    }
+
+    .small_banner {
+        margin: 0;
+        width: auto;
+        margin-top: 25px;
+    }
+
+    .announce_box {
+        width: 100%;
+        margin-right: 8vw;
+    }
+}

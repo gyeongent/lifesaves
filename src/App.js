@@ -15,8 +15,8 @@ function App() {
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />}></Route>
-        {/* <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/projects/:projectName" element={<Projects />}></Route> */}
+        <Route path="/projects" element={<Projects />}></Route>
+        <Route path="/projects/:projectName" element={<Projects />}></Route>
         {/* <Route path="/archive" element={<Home />}></Route> */}
         <Route path="*" element={<NotFound />}></Route>
       </Routes>

@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 import SocialInsta from "../img/instagram_logo.svg";
 import SocialTumbl from "../img/tumblbug_logo.svg";
@@ -10,7 +10,9 @@ function SiteMap(){
         <div className="sitemap">
                 <ul>
                     <li className="sitemap_title">
-                        프로젝트
+                        <Link to="/projects">
+                            프로젝트
+                        </Link>
                     </li>
                     <li className="sitemap_content">
                         <NavLink to="/projects/chapterone">
@@ -25,7 +27,9 @@ function SiteMap(){
                 </ul>
                 <ul>
                     <li className="sitemap_title">
-                        아카이브
+                        <Link to="/archive">
+                            아카이브
+                        </Link>
                     </li>
                     <li className="sitemap_content">
                         <NavLink to="/archive/chapterone">
@@ -40,7 +44,9 @@ function SiteMap(){
                 </ul>
                 <ul>
                     <li className="sitemap_title">
-                        지원
+                        <Link to="/support">
+                            지원
+                        </Link>
                     </li>
                     <li className="sitemap_content">
                         <NavLink to="/support">
