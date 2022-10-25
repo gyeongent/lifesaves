@@ -6,6 +6,7 @@ import Header from './componenets/header';
 import Projects from './componenets/project';
 import Footer from './componenets/footer';
 import NotFound from './componenets/notfound';
+import Support from './componenets/support';
 
 import './App.css';
 
@@ -14,11 +15,12 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route exact path="/" element={<Home />}></Route>
-        <Route path="/projects" element={<Projects />}></Route>
-        <Route path="/projects/:projectName" element={<Projects />}></Route>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/support" element={<Support />}></Route>
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/projects/:projectName" element={<Projects />} />
+        <Route path="*" element={<NotFound />} />
         {/* <Route path="/archive" element={<Home />}></Route> */}
-        <Route path="*" element={<NotFound />}></Route>
       </Routes>
       <Footer />
     </div>

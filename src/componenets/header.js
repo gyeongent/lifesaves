@@ -16,17 +16,17 @@ function Header(){
             </div>
             <div>
                 <ul className="header_Nav">
-                    <NavLink to="/projects">
+                    <NavLink to="/projects" className="li">
                         <li>
                             프로젝트
                         </li>
                     </NavLink>
-                    <NavLink to="/archive">
+                    <NavLink to="/archive" className="li">
                         <li>
                             아카이브
                         </li>
                     </NavLink>
-                    <NavLink to="/support">
+                    <NavLink to="/support" className="li">
                         <li>
                             지원
                         </li>

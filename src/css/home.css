@@ -43,10 +43,9 @@
 
 .top {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     margin-top: 50px;
     margin-bottom: -25px;
-    width: 100vw;
 }
 
 
