@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4d748ba5.css",
-    "main.js": "/static/js/main.cc5817fe.js",
+    "main.js": "/static/js/main.7181e42e.js",
     "static/js/787.2e38e8a8.chunk.js": "/static/js/787.2e38e8a8.chunk.js",
     "static/media/tumblbug_logo.svg": "/static/media/tumblbug_logo.1820c283b441954d32f4b161f7732697.svg",
     "static/media/mail_icon.svg": "/static/media/mail_icon.b85a8d79d4eaaa79fd1ceacb84c735b5.svg",
@@ -9,11 +9,11 @@
     "index.html": "/index.html",
     "static/media/ls_logo.svg": "/static/media/ls_logo.eeb438f77ff7d0b4ae339306f7a39731.svg",
     "main.4d748ba5.css.map": "/static/css/main.4d748ba5.css.map",
-    "main.cc5817fe.js.map": "/static/js/main.cc5817fe.js.map",
+    "main.7181e42e.js.map": "/static/js/main.7181e42e.js.map",
     "787.2e38e8a8.chunk.js.map": "/static/js/787.2e38e8a8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d748ba5.css",
-    "static/js/main.cc5817fe.js"
+    "static/js/main.7181e42e.js"
   ]
 }
