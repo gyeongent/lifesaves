@@ -11,7 +11,7 @@ const Utterances = React.memo(({ repo, theme }) => {
             src,
             repo,
             theme,
-            'issue-term': 'pathname',
+            'issue-term': 'url',
             label: '✨💬 comments ✨',
             crossOrigin: 'anonymous',
             async: 'true',
