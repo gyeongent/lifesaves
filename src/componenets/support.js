@@ -26,7 +26,9 @@ function Support(){
                 <div className="top home_title">
                     궁금하신 내용을 알려주세요!
                 </div>
-                <Utterances repo={repo} theme='boxy-light' />
+                <div className="comments">
+                    <Utterances repo={repo} theme='boxy-light' />
+                </div>
             </div>
             <div className="otherNav">
                 <div className="support_nav">

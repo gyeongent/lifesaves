@@ -14,6 +14,11 @@ a:hover {
   color: auto;
 }
 
+.body {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
 
 .App {
   font-family: 'NanumBeomSomCe','Spoqa Han Sans Neo', 'sans-serif';
@@ -34,23 +39,6 @@ a:hover {
 
 .social_icon {
   fill: red;
-}
-
-.App-header {
-  background-color: #F2EBE7;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(5px + 2vmin);
-  color: black;
-  letter-spacing: -1px;
-  font-weight: 700;
-}
-
-.App-header > div {
-  margin-top: 2.5vmin;
 }
 
 .App-link {
@@ -207,6 +195,7 @@ li {
   transition: 0.3s all ease;
   position: absolute;
   right: 8vmin;
+  z-index: 0;
 }
 
 .b2t:hover {

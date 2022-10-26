@@ -1,7 +1,6 @@
 .utterances {
-    width: 100%;
-    margin: 8vmin;
-    margin-top: 20px;
+    width: inherit;
+    margin: 0;
 }
 
 .utterances-frame {
@@ -15,13 +14,16 @@
 }
 
 .commentbox {
-    width: 70%;
+    width: 50%;
 }
 
 .support_nav {
     width: max-content;
     margin-bottom: 100px;
     height: max-content;
+    background-color: #fafafa;
+    border-radius: 20px;
+    margin: 50px;
 }
 
 .othericon {
@@ -30,6 +32,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .othericon > div {
@@ -41,6 +44,7 @@
     border-radius: 50px;
     transition: all 0.2s ease;
     cursor: pointer;
+    background-color: white;
 }
 
 .othericon > div:hover {
@@ -55,31 +59,50 @@
 
 .fixed {
     position: fixed;
-    right: 0;
+    right: 0px;
     top: 0px;
+    transition: all 0.2s ease;
 }
 
 .otherNav {
-    width: 30%;
+    width: 50%;
     display: flex;
     justify-content: right;
     align-items: flex-start;
+    margin-top: 35px;
+}
+
+.comments {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: rgb(250,250,250);
+    margin: 8vmin;
+    margin-top: 40px;
+    padding: 20px;
 }
 
 @media only screen and (max-width: 768px)  {
     .flex_box {
-        width: 85%;
+        width: 100%;
         display: block;
         height: max-content;
+        box-sizing: border-box;
     }
+
+    .comments {
+        width: 85%;
+        box-sizing: border-box;
+    }
+
     .commentbox {
         width: auto;
-        padding: 8vmin;
     }
 
     .otherNav {
         width: 100%;
         display: block;
-        padding: 8vmin;
+        position: static;
+        box-sizing: border-box;
+        margin: 0;
     }
 }
