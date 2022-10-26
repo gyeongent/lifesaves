@@ -1,12 +1,60 @@
 import React from "react";
 import Utterances from "./function/utterances";
+import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import { Accordion, AccordionSummary, AccordionDetails, Typography } from "@mui/material";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import './function/utterances.css';
 
-import maillogo from "../img/mail_icon.svg";
-import instalogo from "../img/instagram_logo.svg";
-
 const repo = 'gyeongent/lifesaves'
+
+function OtherNavi(){
+    return(
+        <div className="otherNav">
+                <div className="support_nav">
+                    <div className="othericon">
+                        <div>
+                            <AlternateEmailIcon 
+                                sx={{width: "25px", marginRight:"5px"}}
+                            />
+                            <div>
+                                메일문의
+                            </div>
+                        </div>
+                        <div>
+                            <InstagramIcon 
+                                sx={{width: "25px", marginRight:"5px"}}
+                            />
+                            <div>
+                                DM 문의
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    )
+}
+
+function AccordionSection(){
+    return(
+        <div>
+            <Accordion>
+                <AccordionSummary id="panel1-header" aria-controls="panel1-content" expandIcon={<ExpandMoreIcon />}>
+                    배송 관련 문의
+                </AccordionSummary>
+                    <Accordion>
+                        <AccordionSummary id="panel1-header" aria-controls="panel1-content" expandIcon={<ExpandMoreIcon />}>
+                            배송 기간은 얼만큼 걸리나요?
+                        </AccordionSummary>
+                        <AccordionDetails>
+                            사전에 안내드린 배송 시작일에서 2~3일정도 소요되며, 변경될 수 있습니다.
+                        </AccordionDetails>
+                    </Accordion>
+            </Accordion>
+        </div>
+    )
+}
 
 function Support(){
 
@@ -15,7 +63,7 @@ function Support(){
 
         if(window.scrollY > 100 && document.body.clientWidth >= 768){
             nav.classList.add('fixed');
-        } if(window.scrollY > window.innerWidth - 50) {
+        } else {
             nav.classList.remove('fixed');
         }
     });
@@ -30,27 +78,8 @@ function Support(){
                     <Utterances repo={repo} theme='boxy-light' />
                 </div>
             </div>
-            <div className="otherNav">
-                <div className="support_nav">
-                    <div className="top home_title">
-                        다른 궁금한 내용이 있나요?
-                    </div>
-                    <div className="othericon">
-                        <div>
-                            <img src={maillogo} alt="mail logo" width={"20px"}/>
-                            <div>
-                                메일
-                            </div>
-                        </div>
-                        <div>
-                            <img src={instalogo} alt="dm logo" width={"20px"}/>
-                            <div>
-                                DM
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <AccordionSection />
+            <OtherNavi />
         </div>
     );
 }

@@ -27,28 +27,22 @@
 }
 
 .othericon {
-    margin: 30px 8vmin;
     width: auto;
-    display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin-bottom: 50px;
+    margin: 25px 10px;
 }
 
 .othericon > div {
     padding: 8px 20px;
-    border-radius: 50px;
+    border-radius: 10px;
     display: flex;
     align-items: flex-end;
-    border: 1px solid lightgray; 
-    border-radius: 50px;
     transition: all 0.2s ease;
     cursor: pointer;
-    background-color: white;
 }
 
 .othericon > div:hover {
-    border: 1px solid blueviolet;
     color: blueviolet;
     transition: all 0.2s ease;
 }
@@ -79,6 +73,59 @@
     margin: 8vmin;
     margin-top: 40px;
     padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-top: 1px solid gray;
+    border-collapse: collapse;
+    height: 500px;
+}
+
+thead {
+    background-color: rgb(240,240,240);
+}
+
+th, td {
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid rgb(240,240,240);
+    padding: 5px;
+    width: 14.285%;
+    height: 20%;
+}
+
+th:first-child, td:first-child {
+    border-left: none;
+}
+
+.customTb {
+    width: 100%;
+}
+
+.red {
+    color: rgb(255, 100, 100);
+}
+
+.blue {
+    color: rgb(89, 89, 255);
+}
+
+.days {
+    font-size: 15px;
+    vertical-align: top;
+}
+
+.tdisable {
+    color: gray;
+    background-color: rgb(250, 250 ,250);
+}
+
+.tcont {
+    color: black;
+    border-radius: 50px;
+    background-color:gold;
+    margin-top: 5px;
+    word-break: keep-all;
 }
 
 @media only screen and (max-width: 768px)  {

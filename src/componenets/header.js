@@ -46,16 +46,18 @@ function OpenMenu(){
                     </NavLink>
                 </ul>
                 <div className="gf">
-                    펀딩 바로가기
-                    <ArrowForwardIosIcon 
-                    sx={{fontSize: "27px",
-                    marginLeft: "5px",
-                    marginTop: "5px"}}
-                    className="arrow"
-                    />
+                    <a href="https://tumblbug.com/u/lifesaves/" target={"_blank"} rel="noreferrer">
+                        펀딩 바로가기
+                        <ArrowForwardIosIcon 
+                        sx={{fontSize: "27px",
+                        marginLeft: "5px",
+                        marginTop: "5px"}}
+                        className="arrow"
+                        />
+                    </a>
                 </div>
             </div>
-            <div className="blackScreen"/>
+            <div className="blackScreen" onClick={close}/>
         </>
     );
 }
