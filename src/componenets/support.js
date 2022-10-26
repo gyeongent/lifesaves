@@ -15,7 +15,7 @@ function Support(){
 
         if(window.scrollY > 100 && document.body.clientWidth >= 768){
             nav.classList.add('fixed');
-        } else {
+        } if(window.scrollY > window.innerWidth - 50) {
             nav.classList.remove('fixed');
         }
     });

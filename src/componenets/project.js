@@ -16,8 +16,7 @@ function Projects(){
                     <div className="project_thumb">
                         <img src={projectinfo.img} alt={projectinfo.title}/>
                     </div>
-                    <hr className="project_preview_hr"/>
-                    <div>
+                    <div className="project_desc">
                         { projectinfo.title }
                     </div>
                 </div>

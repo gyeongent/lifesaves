@@ -57,7 +57,7 @@ function Home(){
                 <CalendarSection />
                 <div className="small_banner">
                     <div className="notice_title">
-                        진행중인 프로젝트 : {`<Chapter 2> 치매`}
+                        진행중인 프로젝트 : <br/>{`<Chapter 2> 回歸 : 회귀하다.`}
                     </div>
                     <ul className="notice">
                         <li>
