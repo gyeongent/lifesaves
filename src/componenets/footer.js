@@ -26,7 +26,7 @@ function SiteMap(){
                 </li>
                 <li className="sitemap_content">
                     <NavLink to="/projects/chaptertwo">
-                        Chapter 2. 치매
+                        Chapter 2. 回歸 : 회귀하다.
                     </NavLink>
                 </li>
             </ul>
@@ -37,13 +37,13 @@ function SiteMap(){
                     </Link>
                 </li>
                 <li className="sitemap_content">
-                    <NavLink to="/archive/chapterone">
+                    <NavLink to="/archive/check">
                         Chapter 1. 동물원 방치사건
                     </NavLink>
                 </li>
                 <li className="sitemap_content">
-                    <NavLink to="/archive/chaptertwo">
-                        Chapter 2. 치매
+                    <NavLink to="/archive/check">
+                        Chapter 2. 回歸 : 회귀하다.
                     </NavLink>
                 </li>
             </ul>
@@ -108,7 +108,7 @@ function Description(){
                             </a>
                         </li>
                         <li>
-                            <a href="https://tumblbug.com/u/lifesaves" target="blank">
+                            <a href="https://tumblbug.com/lifesaves" target="blank">
                                 <img src={SocialTumbl} alt="Tumblbug Icon" width="75px"/>
                             </a>
                         </li>

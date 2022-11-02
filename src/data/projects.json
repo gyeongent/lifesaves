@@ -3,12 +3,16 @@
         {
             "projectName": "chapterone",
             "title": "<Chapter 1> 동물원 방치사건",
+            "archive": "Z00EB",
             "img": "https://gyeong.net/static/media/LifeSaves_1.e1b9472c5ff9dd71f9ef.jpeg"
+            
         },
         {
             "projectName": "chaptertwo",
             "title": "<Chapter 2> 回歸 : 회귀하다.",
+            "archive": "RTNEB",
             "img": "https://i.ibb.co/RHTMVVN/project2-ls.png"
+            
         }
     ],
     "contents" : [

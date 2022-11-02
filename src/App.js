@@ -7,6 +7,8 @@ import Projects from './componenets/project';
 import Footer from './componenets/footer';
 import NotFound from './componenets/notfound';
 import Support from './componenets/support';
+import ArchivePage from './componenets/archive';
+import CheckPW from './componenets/pwcheck';
 
 import './App.css';
 
@@ -19,6 +21,8 @@ function App() {
             <Route exact path="/" element={<Home />} />
             <Route path="/support" element={<Support />}></Route>
             <Route path="/projects" element={<Projects />} />
+            <Route path="/archive" element={<ArchivePage />} />
+            <Route path="/archive/check" element={<CheckPW />} />
             <Route path="/projects/:projectName" element={<Projects />} />
             <Route path="*" element={<NotFound />} />
             {/* <Route path="/archive" element={<Home />}></Route> */}

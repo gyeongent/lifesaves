@@ -1,0 +1,39 @@
+/* input box color */
+input:-webkit-autofill { box-shadow: 0 0 0 30px #fff inset ; -webkit-text-fill-color: #000; }
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active { transition: background-color 5000s ease-in-out 0s; }
+
+.CheckPage {
+    height: 70vh;
+}
+
+.formAll {
+    padding: 10px 8vmin;
+    margin-top: 20px;
+}
+
+#checkpwform {
+    border: none;
+    border-bottom: 3px solid #000;
+    outline: none;
+    font-size: 25px;
+    font-family: 'NanumBeomSomCe','Spoqa Han Sans Neo', 'sans-serif';
+    font-weight: 700;
+    background-color: white;
+}
+
+#submitBtn {
+    border: 1px solid gray;
+    padding: 8px 20px;
+    border-radius: 20px;
+    margin-left: 10px;
+    background-color: rgb(245,245,245);
+    font-weight: 700;
+    font-family: 'NanumBeomSomCe','Spoqa Han Sans Neo', 'sans-serif';
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 768px)  {
+    .CheckPage {
+        height: 50vh;
+    }
+}

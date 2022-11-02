@@ -46,7 +46,7 @@ function OpenMenu(){
                     </NavLink>
                 </ul>
                 <div className="gf">
-                    <a href="https://tumblbug.com/u/lifesaves/" target={"_blank"} rel="noreferrer">
+                    <a href="https://tumblbug.com/lifesaves" target={"_blank"} rel="noreferrer">
                         펀딩 바로가기
                         <ArrowForwardIosIcon 
                         sx={{fontSize: "27px",
@@ -87,7 +87,7 @@ function Header(){
                 </Link>
             </div>
             <div>
-                <a href="https://tumblbug.com/u/lifesaves" target={"_blank"} rel="noreferrer">
+                <a href="https://tumblbug.com/lifesaves" target={"_blank"} rel="noreferrer">
                     펀딩 바로가기
                 </a>
             </div>

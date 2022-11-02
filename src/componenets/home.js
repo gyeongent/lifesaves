@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import Calendar from "react-calendar";
-import moment from "moment";
-import newsinfo from "../data/news.json";
+import announceList from "../data/announce.json";
 
 import 'react-calendar/dist/Calendar.css';
 import '../css/home.css';
@@ -13,7 +11,7 @@ function Announce(){
                 📢
             </div>
             <div className="announce_content">
-                {newsinfo.annouce[0]}
+                {announceList.announce[0]}
             </div>
         </div>
     );
@@ -74,24 +72,19 @@ function Calendars(){
                         <th>23</th>
                         <th>24</th>
                         <th>25</th>
-                        <th className="blue">
-                            26
-                            <div className="tcont">
-                                펀딩 마감
-                            </div>
-                        </th>
+                        <th className="blue">26</th>
                     </tr>
                     <tr className="days">
                         <th className="red">27</th>
                         <th>28</th>
                         <th>29</th>
-                        <th>
-                            30
+                        <th>30</th>
+                        <th className="tdisable">
+                            1
                             <div className="tcont">
-                                제품 생산
+                                펀딩 마감
                             </div>
                         </th>
-                        <th className="tdisable">1</th>
                         <th className="tdisable">2</th>
                         <th className="blue tdisable">3</th>
                     </tr>
@@ -99,31 +92,6 @@ function Calendars(){
             </table>
         </div>
     )
-}
-
-function CalendarSection(){
-    const [value, onChange] = useState(new Date());
-    return(
-        <div className="calendarStyle">
-            <Calendar
-                onChange={onChange}
-                value={value}
-                calendarType="US"
-                locale="ko-kr"
-                formatDay={(locale, date) => moment(date).format("D")}
-                minDetail="month" // 상단 네비게이션에서 '월' 단위만 보이게 설정
-                maxDetail="month" // 상단 네비게이션에서 '월' 단위만 보이게 설정
-                // eslint-disable-next-line no-mixed-operators
-                tileContent={({ activeStartDate, date, view }) =>
-                    view === 'month' && date.getMonth() === 10 && date.getDate() === 1 ? <div>펀딩 시작</div> : null
-                    &
-                    view === 'month' && date.getDate() === 26 ? <div>펀딩 마감</div> : null
-                    &
-                    view === 'month' && date.getDate() === 30 ? <div>제품 생산</div> :null
-                }
-            />
-        </div>
-    );
 }
 
 function SmallSchedule(){
@@ -134,22 +102,22 @@ function SmallSchedule(){
             </div>
             <ul className="notice">
                 <li>
-                    11월 1일 - 펀딩 시작📝
+                    11월 4일 - 펀딩 시작📝
                 </li>
                 <li>
-                    11월 26일 - 펀딩 마감
+                    12월 8일 - 펀딩 마감
                 </li>
                 <li>
-                    11월 30일 - 제품 생산
+                    12월 9일 - 제품 생산
                 </li>
                 <li>
-                    12월 17일 - 생산 마감 & 포장
+                    12월 22일 - 생산 마감 & 포장
                 </li>
                 <li>
-                    12월 21일 - 포장 마감📦
+                    12월 24일 - 포장 마감📦
                 </li>
                 <li>
-                    12월 24일 - 배송 시작✨
+                    12월 25일 - 배송 시작✨
                 </li>
                 <li>
                     12월 31일 - 배송 마감
