@@ -1,5 +1,6 @@
 import React from "react";
 
+import projectArray from "../data/projects.json";
 import '../css/form.css'
 
 function CheckPW(){
@@ -7,10 +8,10 @@ function CheckPW(){
     function Submit(){
         var password = document.getElementById("checkpwform");
 
-        if (password.value === "Z00EB") {
+        if (password.value === projectArray.projectinfo[0].code) {
             alert("프로젝트 1 코드 입력 성공");
-            window.location.href = 'https://zooeb.lifesaves.kr/';
-        } if (password.value === "RTNEB"){
+            window.location.href = projectArray.projectinfo[0].location;
+        } if (password.value === projectArray.projectinfo[1].code){
             alert("프로젝트 2 코드 입력 성공");
             alert("12월 31일 펀딩 종료 후 공개 예정입니다.");
         } else {
